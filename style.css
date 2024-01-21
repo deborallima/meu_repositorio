@@ -15,6 +15,15 @@ h2 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida 
         padding: 0;
         text-align: center;}
 
+h3 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+            margin: 0;
+            padding: 0;
+            text-align: center;}
+
+h4 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+                margin: 0;
+                padding: 0;
+                text-align: center;}
 Class=logo {
     text-align: center;
 }
