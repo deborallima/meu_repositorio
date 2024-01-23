@@ -26,3 +26,13 @@ h4 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida 
                 text-align: center;}
 
 
+divteste {
+/* propriedades decorativas */
+border: solid 1px black;
+display: inline-block;
+font-size: 32px;
+font-family: Arial;
+/* propriedades que fazem o "problema" */
+width: 100px;
+height: 110px;
+}
