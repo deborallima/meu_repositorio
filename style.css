@@ -42,9 +42,9 @@ padding: 15px;
 }
 
 .link1:hover {
-color: blue;
+color: rgb(255, 242, 0);
 }
-
+ 
 .link:active {
 color: rgb(235, 67, 67);
 
