@@ -43,5 +43,9 @@ padding: 15px;
 
 .link1:hover {
 color: blue;
+}
+
+.link:active {
+color: brown;
 
 }
