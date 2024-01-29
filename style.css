@@ -49,3 +49,7 @@ color: rgb(255, 242, 0);
 color: rgb(235, 67, 67);
 
 }
+
+.link1:focus {
+    border-color: aliceblue;
+}
