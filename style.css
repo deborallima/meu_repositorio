@@ -51,5 +51,4 @@ color: rgb(235, 67, 67);
 }
 
 .link1:focus {
-    border-style:solid;
-border-color: rgb(201, 56, 184);}
+border: solid 1px coral;}
