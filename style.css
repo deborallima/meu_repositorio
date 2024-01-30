@@ -16,8 +16,15 @@
     justify-content: space-between;
     align-items: center;
     list-style: none;
+}
+
+
+.navbar{ 
+    word-spacing: 0,6px;
+    text-decoration: none;
 
 }
+
 
 
 .banner1 {
@@ -30,40 +37,32 @@
     }
 
 .tituloparte2 {
+    font-family: 'Montserrat';
+    font-style:bold;
+    font-size: 90px;
    position: absolute;
     top: 50%;
-    left: 50%;
+    left: 10%;
     text-align:left;
-    font-size: 50px;
-  
+    color: #f4f4f4;
 
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;}
 
-h1 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;}
- 
-h2 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        margin: 0;
-        padding: 0;
-        text-align: center;}
 
-h3 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;}
+.textoparte1{
+    font-family: 'Montserrat';
+    font-style:bold;
+    font-size: 15px;
+   position: absolute;
+    top: 50%;
+    left: 10%;
+    text-align:left;
+    color: #f4f4f4;
 
-h4 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                margin: 0;
-                padding: 0;
-                text-align: center;}
+}
+
+.botaoparte1
 
 
 .divteste {
@@ -101,12 +100,3 @@ outline-color:chocolate;
     color: blueviolet;
 
 }
-/* banner 1 */
-
-position: absolute;
-width: 1440px;
-height: 800px;
-left: 0px;
-top: 0px;
-
-background: url(banner2.png);
