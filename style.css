@@ -78,6 +78,11 @@
 
 }
 
+.videos {
+    background-image: linear-gradient(red, blueviolet);
+}
+
+
 
 
 
@@ -116,3 +121,4 @@ outline-color:chocolate;
     color: blueviolet;
 
 }
+
