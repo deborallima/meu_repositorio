@@ -25,11 +25,21 @@
 
 }
 
-.porondecomecar { background-image: url(Image/banner\ 1.png);
+
+.content {
+
+    display: flex;
+   flex-direction: column;
+}
+
+
+.porondecomecar { 
+    background-image: url(Image/banner\ 1.png);
     background-size: cover;
     background-position: center; 
-    width: 1440px;
-    height: 800px;
+    width: 100vw;
+    height: 100vh;
+    
 }
 
 
@@ -42,6 +52,21 @@ h1 {
 
 }
 
+
+
+
+.caixa {
+    width: 300px; /* Largura da caixa, ajuste conforme necessário */
+    height: 200px; /* Altura da caixa, ajuste conforme necessário */
+    background-color: #f0f0f0; /* Cor de fundo da caixa */
+    border: 2px solid #333; /* Borda da caixa */
+    padding: 20px; /* Espaçamento interno da caixa */
+    margin: 20px; /
+}
+.caixa:hover{
+    width: 100px; /* Largura da caixa, ajuste conforme necessário */
+    height: 100px;
+}
 
 
 .textoparte1{
