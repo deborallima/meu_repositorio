@@ -1,5 +1,9 @@
 
 
+@font-face {
+    font-family: 'Montserrat'; /* Nome que você irá usar para se referir à fonte */
+    src: url('font/Montserrat/Montserrat-VariableFont_wght.ttf') format('woff'); /* Caminho para o arquivo da fonte e formato */
+  }
 .logosite {
     display:block ;
 
@@ -8,7 +12,7 @@
 
 .cabecalho {
    background-color: rgb(252,246,234);
-    font-family: 'Montserrat';
+    font-family: 'montserrat';
     font-size: 17px;
     color: rgba(57, 77, 59, 1);
     display:flex;
@@ -16,18 +20,19 @@
     justify-content: space-between;
     align-items: center;
     list-style: none;
-}
 
+}
 
 .navbar{ 
     word-spacing: 0,6px;
     text-decoration: none;
+    background-color:rgba(241, 236, 227, 1)
 
 }
 
 
 .content {
-
+    background-color:rgba(241, 236, 227, 1) ;
     display: flex;
    flex-direction: column;
 }
@@ -37,51 +42,51 @@
     background-image: url(Image/banner\ 1.png);
     background-size: cover;
     background-position: center; 
-    width: 100vw;
-    height: 100vh;
+    width: 1440px;
+    height: 800px;
+    position: relative; /* Adicione esta propriedade para tornar o posicionamento relativo ao contêiner pai */
+}
+
+.tituloparte1 {
+    color: #f4f4f4;
+    font-family: 'Montserrat';
+    font-weight:800 ; /* Substituí font-style por font-weight */
+    font-size: 90px;
+    line-height: 0.9;
+   letter-spacing: 2px;
+    position: absolute;
+    top: 30%; /* Ajuste conforme necessário */
+    left: 6%;
+    text-align: left;
+    width: 647px;
+    height: 220px;
+}
+
+.textoparte1 {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    position: absolute;
+    line-height: 2;
+   letter-spacing: 1px;
+    top: 61%;
+    left: 6%;
+    text-align: left;
+    color: #f4f4f4;
+}
+
+.botaoparte1 {
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 15px;
+   background-color: rgba(92, 115, 94, 1);
+    position: absolute;
+    top: 80%; /* Ajuste conforme necessário */
+    left: 6%;
+    width: 281px;
+    height: 55px;
+    border-radius: 5px
     
 }
-
-
-h1 {
-    color: #f4f4f4;
-    font-family: 'Montserrat';
-    font-style:bold;
-    font-size: 80px;
-
-
-}
-
-
-
-
-.caixa {
-    width: 300px; /* Largura da caixa, ajuste conforme necessário */
-    height: 200px; /* Altura da caixa, ajuste conforme necessário */
-    background-color: #f0f0f0; /* Cor de fundo da caixa */
-    border: 2px solid #333; /* Borda da caixa */
-    padding: 20px; /* Espaçamento interno da caixa */
-    margin: 20px; /
-}
-.caixa:hover{
-    width: 100px; /* Largura da caixa, ajuste conforme necessário */
-    height: 100px;
-}
-
-
-.textoparte1{
-    font-family: 'Montserrat';
-    font-style:bold;
-    font-size: 15px;
-   position: absolute;
-    top: 50%;
-    left: 10%;
-    text-align:left;
-    color: #f4f4f4;
-
-}
-
-.botaoparte1
 
 
 .videos {
@@ -97,42 +102,38 @@ h1 {
 
 }
 
-
-
-
-.divteste {
-/* propriedades decorativas */
-border: solid 1px black;
-display: inline-block;
-font-size: 32px;
-font-family: Arial;
-/* propriedades que fazem o "problema" */
-width: 100px;
-height: 110px;
-overflow: hidden;
-border-style: 15px;
-margin: 15px;
-padding: 15px;
-}
-
-.link1:hover {
-color: rgb(255, 242, 0);
-}
- 
-.link1:active {
-color: rgb(235, 67, 67);
-}
-
-.link1:focus {
-outline-color:chocolate;
-}
-
-.btn1:disabled {
-    color: blueviolet;
-}
-
-.btn1:invalid {
-    color: blueviolet;
+.juntese {
+    background-color: rgb(252,246,234);
+    font-family: 'Montserrat';
+    font-size: 17px;
+    color: rgba(57, 77, 59, 1);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
+.newsletter { 
+    
+    background-color: rgb(252,246,234);
+    font-family: 'Montserrat';
+    font-size: 17px;
+    color: rgba(57, 77, 59, 1);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color: rgb(252,246,234);
+    font-family: 'Montserrat';
+    font-size: 17px;
+    color: rgba(57, 77, 59, 1);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
