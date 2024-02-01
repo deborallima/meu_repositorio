@@ -4,6 +4,9 @@
     font-family: 'Montserrat'; /* Nome que você irá usar para se referir à fonte */
     src: url('font/Montserrat/Montserrat-VariableFont_wght.ttf') format('woff'); /* Caminho para o arquivo da fonte e formato */
   }
+
+ 
+
 .logosite {
     display:block ;
 
@@ -20,14 +23,12 @@
     justify-content: space-between;
     align-items: center;
     list-style: none;
-
+    
 }
 
-.navbar{ 
-    word-spacing: 0,6px;
+.navbar {
+    color: rgba(57, 77, 59, 1);
     text-decoration: none;
-    background-color:rgba(241, 236, 227, 1)
-
 }
 
 
