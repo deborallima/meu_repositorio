@@ -113,6 +113,40 @@
 
 }
 
+.caixamochila {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    height: 573px;
+    width: 100%;
+    background-color: rgba(92, 115, 94, 1);
+}
+
+.mochila {
+    position: relative;
+    height: 573px;
+    border: 1px solid #ccc;
+    overflow: hidden; /* Para esconder o overflow das caixas */
+}
+
+.caixa1 {
+    position: absolute;
+    width: 660px;
+    height: 482px; /* Ajuste conforme necessário */
+    background-color: rgba(186, 132, 93, 1); /* Cor de fundo da caixa, ajuste conforme necessário */
+}
+
+.caixa1 {
+    top: 0;
+}
+
+
+.mochila img {
+    max-width: 503px;
+    max-height: 503px;
+    z-index: 1; /* Garante que a imagem fique sobre as caixas */
+}
+
 
 .tituloparte3 {
     font-size: 20px;
@@ -123,12 +157,6 @@
 
 }
 
-.mochila{
-    width: 503;
-    height: 503;
-    display: flex;
-    align-content: center;
-}
 
 .juntese {
     background-color: rgb(252,246,234);
