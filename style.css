@@ -99,7 +99,6 @@
 }
 
 
-
 .videos {
 
     background-color: rgb(252,246,234);
@@ -111,6 +110,15 @@
     justify-content: space-between;
     align-items: center;
 
+}
+
+.botaoparte2{
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 15px;
+   background-color: rgba(92, 115, 94, 1);
+    
+    
 }
 
 .caixamochila {
