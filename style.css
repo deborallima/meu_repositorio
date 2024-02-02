@@ -89,6 +89,16 @@
     
 }
 
+.tituloparte2 {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-size: 56px;
+    color: rgba(186, 132, 93, 1);
+  
+}
+
+
 
 .videos {
 
@@ -101,6 +111,23 @@
     justify-content: space-between;
     align-items: center;
 
+}
+
+
+.tituloparte3 {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-size: 56px;
+    color: rgba(186, 132, 93, 1);
+
+}
+
+.mochila{
+    width: 503;
+    height: 503;
+    display: flex;
+    align-content: center;
 }
 
 .juntese {
